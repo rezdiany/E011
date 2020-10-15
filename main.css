@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+.heading h2 {
+    font-weight: normal;
+  }
+
+  .main-top {
+    padding: 180px 0 100px 0;
+    background-image: url(img/lepi.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .main-top h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .main-topS p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-tombol {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  
+  .signup {
+    background-color:red;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    box-shadow: 6px 6px rgba(0,0,0, 0.4);
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar-left {
+    float: left;
+    margin-top: 15px;
+    color: white;
+    letter-spacing: 8px;
+  }
+  
+  .navbar-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .navbar-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .navbar-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: solid 5px rgb(133, 133, 247);
+    border-radius: 2px;
+    margin-top:-8px;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display: none;
+    color: transparent;
+  }
+  
+
+.head{
+    text-align: center;
+} 
+
+.head h2{
+    letter-spacing: 2px;
+    font-weight: normal;
+}  
+
+.contents{
+    background-color:none;
+    width: 225px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding: 15px 5px;
+    border: solid 2px black;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgba(0,0,0, 0.4);
+}
+
+.main{
+    height:400px;
+}
+
+.main-contents{
+  margin-left: 110px; 
+}
+
+.judul{
+    text-align: center;
+}
+
+.judul h3{
+    margin-top:4px;
+    margin-bottom:2px;
+    letter-spacing: 3px;
+}
+
+.fa-html5{
+    color: rgb(247, 180, 56);
+    cursor: pointer;
+}
+
+.fa-html5:hover{
+    color:orange;
+}
+
+.fa-css3{
+    color: rgb(148, 148, 247);
+    cursor: pointer;
+}
+
+.fa-css3:hover{
+    color: rgb(146, 90, 250);
+}
+
+.fa-js-square{
+    color: rgb(248, 248, 103);
+    cursor: pointer;
+}
+
+.fa-js-square:hover{
+    color: yellow;
+}
+
+.fa-gem{
+    color:rgb(252, 97, 97);
+    cursor: pointer;
+}
+
+.fa-php:hover{
+    color: rgb(253, 39, 39);
+}
+
+.content p{
+    padding: 0px 10px;
+    display: inline-block;
+    line-height: 23px;
+    text-align: center;
+}
+
+.tombol{
+    background-color: #5dca88;
+    color: black;
+    margin:0 32px;
+    padding: 6px 50px;
+    display: inline-block;
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: 4px 4px #1a7940;
+    cursor: pointer;
+}
+
+.tombol:hover{
+    opacity: 1;
+}
+
+.tombol:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
